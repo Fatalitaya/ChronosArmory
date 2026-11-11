@@ -17,8 +17,18 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
+modId="combatnexus"
+type="required"
+versionRange="[0.1.0-SNAPSHOT,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
 modId="minecraft"
 type="required"
 versionRange="${minecraft_version_range}"
 ordering="NONE"
 side="BOTH"
+
+[[mixins]]
+config="chronos_armory.mixins.json"

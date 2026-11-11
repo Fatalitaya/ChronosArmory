@@ -1,0 +1,14 @@
+{
+  "item.chronos_armory.null": "空无",
+  "item.chronos_armory.antares": "流火之息",
+  "item.chronos_armory.moon_marrow": "月髓",
+  "item.chronos_armory.dragonspine_breaker": "苍螭破岳剑",
+  "item.chronos_armory.big_apple": "大苹果",
+  "item.chronos_armory.evernight_star": "永夜飞星",
+  "item.chronos_armory.cyanfrost_violetvolt": "青霜紫电",
+  "key.chronos_armory.skill": "战技（永夜飞星按住蓄力）",
+  "key.chronos_armory.ultimate": "绝技",
+  "key.categories.chronos_armory": "岁月武库",
+  "message.chronos_armory.status": "充能 %s/%s · 战技冷却 %ss",
+  "itemGroup.chronos_armory": "岁月武库"
+}

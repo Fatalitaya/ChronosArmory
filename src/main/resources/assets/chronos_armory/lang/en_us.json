@@ -1,0 +1,14 @@
+{
+  "item.chronos_armory.null": "NULL",
+  "item.chronos_armory.antares": "ANTARES",
+  "item.chronos_armory.moon_marrow": "MOON MARROW",
+  "item.chronos_armory.dragonspine_breaker": "DRAGONSPINE BREAKER",
+  "item.chronos_armory.big_apple": "BIG APPLE",
+  "item.chronos_armory.evernight_star": "EVERNIGHT STAR",
+  "item.chronos_armory.cyanfrost_violetvolt": "CYANFROST VIOLETVOLT",
+  "key.chronos_armory.skill": "Weapon skill (hold to charge Evernight Star)",
+  "key.chronos_armory.ultimate": "Ultimate",
+  "key.categories.chronos_armory": "Chronos Armory",
+  "message.chronos_armory.status": "Charge %s/%s · Skill cooldown %ss",
+  "itemGroup.chronos_armory": "Chronos Armory"
+}
