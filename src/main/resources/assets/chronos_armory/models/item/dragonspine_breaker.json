@@ -1,6 +1,81 @@
 {
-  "parent": "minecraft:item/handheld",
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    128,
+    128
+  ],
   "textures": {
-    "layer0": "minecraft:item/diamond_sword"
+    "0": "chronos_armory:item/azure_mountains_masher_sword",
+    "particle": "chronos_armory:item/azure_mountains_masher_sword"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -6,
+        0.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        -6,
+        0.25
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        1.75,
+        -7,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        1.75,
+        -7,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        90,
+        45,
+        -90
+      ],
+      "translation": [
+        -7,
+        -7.25,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        -9.75,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
   }
 }

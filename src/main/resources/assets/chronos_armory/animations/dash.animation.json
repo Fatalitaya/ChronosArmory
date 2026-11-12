@@ -1,0 +1,56 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "disa": {
+      "animation_length": 0.5,
+      "bones": {
+        "bone": {
+          "scale": {
+            "0.0": {
+              "vector": [
+                1,
+                1,
+                1
+              ]
+            },
+            "0.0833": {
+              "vector": [
+                3,
+                3,
+                3
+              ],
+              "easing": "easeInBack"
+            },
+            "0.1667": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeInBounce"
+            }
+          }
+        },
+        "bone2": {
+          "scale": {
+            "0.0": {
+              "vector": [
+                1,
+                1,
+                1
+              ]
+            },
+            "0.4583": {
+              "vector": [
+                1,
+                1,
+                4.1
+              ],
+              "easing": "easeInBounce"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -22,7 +22,7 @@ public final class ArmoryItems {
     private ArmoryItems() {}
 
     private static DeferredItem<ArmoryWeaponItem> register(String id, double damage, double speed, int charge) {
-        return ITEMS.register(id, () -> new ArmoryWeaponItem(damage, speed, charge));
+        return ITEMS.register(id, () -> new ArmoryWeaponItem(id, damage, speed, charge));
     }
 
     public static final DeferredRegister<CreativeModeTab> TABS =

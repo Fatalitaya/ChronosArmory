@@ -1,6 +1,85 @@
 {
-  "parent": "minecraft:item/handheld",
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -23,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -23,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -16,
+        0,
+        0
+      ],
+      "translation": [
+        2.5,
+        -28,
+        3
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -16,
+        0,
+        0
+      ],
+      "translation": [
+        2.5,
+        -28,
+        3
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -90,
+        -62,
+        -90
+      ],
+      "translation": [
+        -6.25,
+        -9.25,
+        0
+      ],
+      "scale": [
+        0.33,
+        0.33,
+        0.33
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        59.5,
+        90
+      ],
+      "translation": [
+        7,
+        -11.75,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
   "textures": {
-    "layer0": "minecraft:item/iron_sword"
+    "particle": "chronos_armory:item/moon_marrow_scythe"
   }
 }

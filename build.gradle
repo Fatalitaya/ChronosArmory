@@ -30,6 +30,16 @@ repositories {
     maven {
         url = 'https://maven.sighs.cc/repository/maven-snapshots/'
     }
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 base {
@@ -117,6 +127,9 @@ configurations {
 
 dependencies {
     implementation 'io.github.fatalitaya.combatnexus:CombatNexus-neoforge-1.21.1:0.1.0-SNAPSHOT'
+    implementation "curse.maven:geckolib-388172:8893490"
+    //implementation "curse.maven:geckolibbetterfps-1455983:8582640"
+    //runtimeOnly "curse.maven:sodium-394468:8756580"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

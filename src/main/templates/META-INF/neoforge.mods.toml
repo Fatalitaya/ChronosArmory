@@ -32,3 +32,10 @@ side="BOTH"
 
 [[mixins]]
 config="chronos_armory.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId="geckolib"
+type="required"
+versionRange="[4.7,)"
+ordering="AFTER"
+side="BOTH"

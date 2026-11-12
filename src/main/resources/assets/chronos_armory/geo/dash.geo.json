@@ -1,0 +1,189 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 5,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "bone2",
+          "pivot": [
+            -18.5,
+            0,
+            -25
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                11,
+                -26
+              ],
+              "size": [
+                0,
+                18,
+                56
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    18
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    39,
+                    0
+                  ],
+                  "uv_size": [
+                    56,
+                    18
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    18
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    39,
+                    18
+                  ],
+                  "uv_size": [
+                    56,
+                    18
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    56
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    0,
+                    56
+                  ],
+                  "uv_size": [
+                    0,
+                    -56
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "bone",
+          "pivot": [
+            0,
+            19.5,
+            -26
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -19.5,
+                0,
+                -26
+              ],
+              "size": [
+                39,
+                39,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    39,
+                    39
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    39
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    39
+                  ],
+                  "uv_size": [
+                    39,
+                    39
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    0,
+                    39
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    39,
+                    0
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    39,
+                    0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

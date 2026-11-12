@@ -1,0 +1,8 @@
+{
+  "null_blade_skill_sound": {
+    "subtitle": "subtitles.chronos_armory.null_blade_skill_sound",
+    "sounds": [
+      "chronos_armory:null_blade_skill_sound"
+    ]
+  }
+}

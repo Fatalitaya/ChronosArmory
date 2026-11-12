@@ -9,6 +9,8 @@ public final class ChronosArmory {
 
     public ChronosArmory(IEventBus modBus) {
         ArmoryItems.ITEMS.register(modBus);
+        com.hantokei.chronos_armory.particles.ModParticles.PARTICLE_TYPES.register(modBus);
+        com.hantokei.chronos_armory.sounds.ModSounds.register(modBus);
         ArmoryItems.TABS.register(modBus);
         modBus.addListener(ArmoryNetwork::register);
         var gameBus=net.neoforged.neoforge.common.NeoForge.EVENT_BUS;
